@@ -8,6 +8,7 @@ Esta acción imprime "Hello World" o "Hello" + el nombre de una persona a quien 
 
 **Obligatorio** El nombre de la persona a quién saludar. Predeterminado `"World"`.
 
+
 ## Outputs
 
 ### `time`
@@ -18,4 +19,4 @@ El tiempo en que lo saludamos.
 
 uses: actions/hello-world-docker-action@v1
 with:
-  who-to-greet: 'Mona the Octocat'
+  who-to-greet: 'Action from github'
